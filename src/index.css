@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.headingTwo{
+  @apply text-white sm:text-base  font-sans font-bold mb-4
+}
+.anchorTag{
+  @apply text-white text-base  font-sans no-underline block transition-all duration-300 ease-in-out leading-5 text-ellipsis 
+}
+
+body{
+  background-color: rgb(229, 230, 229);
+}
